@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .input {
+    @apply rounded border border-stone-700 bg-stone-900 px-3 py-2;
+  }
+}
